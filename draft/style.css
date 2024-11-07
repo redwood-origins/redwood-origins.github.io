@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    margin: 0px;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+.grid-parent {
+    margin: 0 0.3% 0 0.3%;
+    display: grid;
+    gap: 0px;
+    width: auto;
+
+    
+}
+
+
+header {
+    color: blueviolet;
+    width: 100%;
+    background-color: red;
+    height: 50px;
+    position: fixed;
+    margin: 0 0 0 0;
+    vertical-align: center;
+}
+
+#header-filler
+
+nav {
+    background-color: blue;
+    grid-column: 1 / span 2;
+}
+
+.main-content {
+    background-color: yellow;
+    grid-column: 2 / span 1;
+    height: 2000px;
+}
